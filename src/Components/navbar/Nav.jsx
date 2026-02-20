@@ -33,11 +33,11 @@ function Nav() {
   return (
       <>
 
-        <div className=' hidden lg:flex justify-end w-full mr-8 mt-3  '>
+        <div className=' hidden lg:flex justify-end w-[95%] mt-2  border p-4 m-auto rounded-2xl'>
              {
                data.map((i,ind)=> (
                 <div key={ind} className='ml-6'>
-                  <Link to ={i.link} className='text-[24px]'>{i.name}</Link>
+                  <Link to ={i.link} className='text-[24px] focus:bg-red-500 rounded'>{i.name}</Link>
 
                 </div>
                ))

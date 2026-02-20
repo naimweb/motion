@@ -1,11 +1,11 @@
 import React from 'react'
-import Home from "./Components/Home"
-import About from "./Components/About"
-import ErrorFound from "./Components/errorFound"
+import Home from "./Components/pages/Home/Home"
+import About from "./Components/pages/About/About"
+import ErrorFound from "./Components/pages/errorFound"
 import Nav from './Components/navbar/Nav'
-import Project from './Components/Project'
-import Service from './Components/Service'
-import Contact from './Components/Contact'
+import Project from './Components/pages/Project/Project'
+import Service from './Components/pages/Service/Service'
+import Contact from './Components/pages/Contact/Contact'
 import { Routes,Route } from 'react-router-dom'
 
 function App() {
