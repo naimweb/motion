@@ -21,5 +21,16 @@ import { CiMenuFries } from "react-icons/ci";
          p:"nation is the fierly importent"
 
      },
+     {
+        color:"blue",
+        
+         name:"valuge nation",
+         p:"nation is the fierly importent"
+
+     },
 ]
+
+
+
+
 

@@ -16,10 +16,10 @@ function Header() {
       </div>
 
       {/* Cards + Image Section */}
-      <div className='mt-12 flex flex-col lg:flex-row justify-center items-center gap-12 lg:gap-16 px-4 max-w-6xl mx-auto'>
+      <div className='mt-12 flex flex-col lg:flex-row justify-center items-center gap-12 lg:gap-6 px-8 max-w-6xl mx-auto'>
 
         {/* Cards */}
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 '>
           {Info.map((i, ind) => (
             <div
               key={ind}
@@ -35,11 +35,11 @@ function Header() {
         </div>
 
         {/* Image */}
-        <div className='mt-10 lg:mt-0 flex justify-center w-full lg:w-auto'>
+        <div className='mt-10 lg:mt-0 flex justify-center w-[50%]'>
           <img
             src="./vail.png"
             alt="Illustration"
-            className='w-full max-w-md rounded-2xl shadow-lg object-cover'
+            className='w-[79%] h-[0%] max-w-md rounded-2xl shadow-lg object-cover'
           />
         </div>
 

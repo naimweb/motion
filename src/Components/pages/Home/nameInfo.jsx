@@ -5,7 +5,7 @@ function NameInfo() {
   return (
       <>
          <div className='flex-col  lg:flex flex-row justify-center mt-5 gap-[10%] '>
-             <div className='w-[90%]  lg:w-[40%] '>
+             <div className='w-[90%]  lg:w-[30%] '>
                  <h1 className=' text-2xl font-bold'>HI Iam Jhackson Alvarl <br></br><span className='text-yellow-500 font-extrabold'>Expart Visual Designer</span></h1>
                 <p className='mt-3 mb-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fuga porro, mollitia iste quos similique nobis est magni possimus voluptates minima soluta rem, excepturi non ut! Nam reiciendis natus dicta.</p>
                 <div className='flex pl-2 gap-2 mb-6'>

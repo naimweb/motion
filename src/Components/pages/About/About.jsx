@@ -1,9 +1,13 @@
 import React from 'react'
+import PicAbout from './picAbout';
+import Skill from "./Skill"
 
 function About() {
   return (
      <>
-      <h1>this is About page is here </h1>
+      {/* call component */}
+       <PicAbout />
+   
       </>
   )
 }
