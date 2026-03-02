@@ -1,9 +1,15 @@
-import React from 'react'
-
+import React from "react";
+import ServicePage from "./ServicePage";
+import FAQSection from './FaqPage'
 function Service() {
+
   return (
-    <div>this is servicec page </div>
+
+<>
+<ServicePage />
+<FAQSection />
+</>
   )
 }
 
-export default Service
+export default Service;
