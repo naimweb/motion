@@ -1,8 +1,13 @@
 import React from 'react'
+import ContactInfo from './ContactInfo'
+import Footer from '../footer/Footer'
 
 function Contact() {
   return (
-    <div>this is contact page </div>
+    <>
+     <ContactInfo />
+     <Footer />
+    </>
   )
 }
 

@@ -1,7 +1,9 @@
 import React from "react";
+import Footer from "../footer/Footer";
 
 function Education() {
   return (
+    <>
     <section className="bg-gradient-to-r from-[#0f2027] to-[#203a43] py-16 px-6 text-white">
       
       <div className="max-w-4xl mx-auto">
@@ -52,7 +54,10 @@ function Education() {
         </div>
       </div>
 
+     <Footer /> 
     </section>
+    </>
+  
   );
 }
 

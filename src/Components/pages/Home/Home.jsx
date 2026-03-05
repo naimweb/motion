@@ -1,6 +1,7 @@
 import React from 'react'
 import NameInfo from './nameInfo'
 import Header from './Header'
+import Footer from '../footer/Footer'
 
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
             <NameInfo />
             {/* Header */}
             <Header />
+            <Footer />
 
      </>
   )
