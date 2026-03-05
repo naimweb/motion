@@ -1,8 +1,13 @@
 import React from 'react'
+import ProjectLive from './ProjectLive'
+import Footer from '../footer/Footer'
 
 function Project() {
   return (
-    <div>this is project page</div>
+    <>
+     <ProjectLive />
+     <Footer />
+    </>
   )
 }
 
