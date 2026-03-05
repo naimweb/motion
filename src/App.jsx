@@ -11,10 +11,10 @@ import { Routes,Route } from 'react-router-dom'
 function App() {
   return (
     <>
-      <div className='flex'>
+    
 
-         <Nav />
-      </div>
+         <Nav  />
+  
       <Routes>
             <Route path = "/" element = {<Home />} />
             <Route path = "/about" element = {<About />} />
