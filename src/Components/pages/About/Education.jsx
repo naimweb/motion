@@ -54,7 +54,7 @@ function Education() {
         </div>
       </div>
 
-     <Footer /> 
+    <Footer />
     </section>
     </>
   
