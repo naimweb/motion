@@ -6,7 +6,7 @@ function Project() {
     {
       id: 1,
       title: "Ecommerce Website",
-      image: "public/picAbout.avif",
+      image: "https://bloomidea.com/sites/default/files/styles/og_image/public/blog/Tipos%20de%20come%CC%81rcio%20electro%CC%81nico_0.png?itok=jC9MlQZq",
       desc: "Full stack ecommerce website with authentication and cart system.",
       tech: "React, Tailwind, Node",
       live: "",
@@ -15,7 +15,7 @@ function Project() {
     {
       id: 2,
       title: "Portfolio Website",
-       image: "public/picAbout.avif",
+       image: "https://cdn.dribbble.com/userupload/11836429/file/original-50ce4cf8f8a5d8304ffba34a22ed9c65.png?format=webp&resize=400x300&vertical=center",
       desc: "Personal portfolio website to showcase projects.",
       tech: "React, Tailwind",
       live: "#",
@@ -24,7 +24,7 @@ function Project() {
     {
       id: 3,
       title: "Weather App",
-       image: "public/picAbout.avif",
+       image: "https://cdn.dribbble.com/userupload/4088184/file/original-f55ad126d73c2655af09bcdee1789a53.jpg?resize=400x0",
       desc: "Weather app using API to show real-time weather.",
       tech: "React, API",
       live: "#",
